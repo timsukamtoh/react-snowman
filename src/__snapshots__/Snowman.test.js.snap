@@ -154,6 +154,9 @@ exports[`snapshot tests initial snapshot 1`] = `
         z
       </button>
     </p>
+    <button>
+      Restart Game
+    </button>
   </div>
 </div>
 `;

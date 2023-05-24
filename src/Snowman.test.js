@@ -35,11 +35,9 @@ describe("Finish a game", function () {
       />
     );
 
-
-
     // click some letters
     const ltrButtons = container.querySelectorAll("button");
-    for(let i = 0 ; i<3; i++) {
+    for (let i = 0; i < 3; i++) {
       fireEvent.click(ltrButtons[i]);
     }
 
@@ -51,7 +49,4 @@ describe("Finish a game", function () {
       container.querySelector('.lose-message')
     ).toBeInTheDocument();
   });
-
-
-
 });
